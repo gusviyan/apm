@@ -29,9 +29,13 @@
         </div>
     </form>
     <br><br>
-    <a href="dashboard.php" target="_blank">
-        <button type="button">Lihat Hasil</button>
-    </a>
-</div>
+    <div class="button-group">
+        <a href="dashboard.php" target="_blank">
+            <button type="button">Lihat Hasil</button>
+        </a>
+        <a href="report.php" target="_blank">
+            <button type="button">Laporan</button>
+        </a>
+    </div>
 </body>
 </html>

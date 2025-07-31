@@ -44,7 +44,7 @@ while ($row = mysqli_fetch_assoc($result)) {
         <tr>
             <th>Alasan</th>
             <th>Jumlah</th>
-            <th>Waktu Vote</th>
+            <th>Waktu Vote Terakhir</th>
             <th>Persentase</th>
         </tr>
         <?php foreach ($rows as $row): 
