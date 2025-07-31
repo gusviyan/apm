@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #f5f7fa;
+    color: #333;
+    padding: 30px;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #2a2f45;
+}
+
+form .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-top: 30px;
+}
+
+/* tombol polling */
+form .grid button {
+    background: #039d95;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s ease;
+    white-space: normal;
+    word-wrap: break-word;
+    min-height: 70px;
+}
+
+form .grid button:hover {
+    background: #027d77;
+}
+
+button {
+    background: #039d95;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px auto;
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #027d77;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background: #039d95;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+p {
+    font-size: 18px;
+    margin: 15px 0;
+}
